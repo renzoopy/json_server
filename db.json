@@ -1,0 +1,82 @@
+{
+    "categories": [
+      {
+        "id": "1",
+        "idCategory": 1,
+        "name": "Ropa"
+      },
+      {
+        "id": "2",
+        "idCategory": 2,
+        "name": "Electrónica"
+      },
+      {
+        "id": "3",
+        "idCategory": 3,
+        "name": "Limpieza"
+      }
+    ],
+    "products": [
+      {
+        "id": "1",
+        "idProduct": 2,
+        "name": "Smartphone",
+        "idCategory": 2,
+        "price": 500
+      },
+      {
+        "id": "2",
+        "idProduct": 1,
+        "name": "Camiseta",
+        "idCategory": 1,
+        "price": 20
+      },
+      {
+        "id": "3",
+        "idProduct": 3,
+        "name": "Cafetera",
+        "idCategory": 3,
+        "price": 80
+      },
+      {
+        "id": "4",
+        "idProduct": 4,
+        "name": "Detergente",
+        "idCategory": 3,
+        "price": 250
+      },
+      {
+        "id": "5",
+        "idProduct": 5,
+        "name": "Pantalones",
+        "idCategory": 1,
+        "price": 75
+      }
+    ],
+    "clients": [
+      {
+        "id": "1",
+        "idClient": 1,
+        "govId": "4177075",
+        "firstName": "Lorenzo",
+        "lastName": "Cabrera"
+      }
+    ],
+    "sales": [
+      {
+        "id": "1",
+        "idSale": 1,
+        "date": "2024-01-01",
+        "idClient": 1,
+        "total": 100,
+        "saleDetails": [
+          {
+            "idSaleDetail": 1,
+            "idProduct": 1,
+            "cantidad": 1,
+            "price": 500
+          }
+        ]
+      }
+    ]
+  }
